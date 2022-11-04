@@ -1,18 +1,7 @@
-import React from 'react';
-import Header from './components/Header';
-import About from './components/About';
-import Footer from './components/Footer';
-import ContactForm from './components/ContactForm';
+import PageContainer from './components/PageContainer';
 
 function App() {
-  return (
-    <div>
-      <Header />
-      <About />
-      <ContactForm />
-      <Footer />
-    </div>
-  );
+  return <PageContainer />;
 }
 
 export default App;
