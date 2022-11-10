@@ -9,6 +9,7 @@ import ContactForm from './pages/ContactForm';
 export default function PageContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
+  //Rendering based on one value so switch works well and looks cleaner than if/else
   const renderPage = () => {
     switch (currentPage) {
       case 'Home':
