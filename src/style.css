@@ -10,7 +10,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  color: #e5e5e5;
+  color: aliceblue;
+  /* color: #fca311; */
   min-height: 100vh;
   border: none;
 }
@@ -49,4 +50,29 @@ li {
 
 a {
   text-decoration: none;
+}
+
+.about {
+  justify-content: center;
+  font-size: 125%;
+}
+
+.about-img {
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.skill-list {
+  justify-content: center;
+}
+
+.pic {
+  height: 300px;
+  border-radius: 15px;
+  border: black solid 2px;
 }
