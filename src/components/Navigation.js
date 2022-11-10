@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
-    <nav>
+    <nav className='nav-cont'>
       <ul>
         <li>
           <a
-            href="#about"
+            href='#about'
             onClick={() => handlePageChange('Home')}
             className={currentPage === 'Home' ? 'active' : ''}
           >
@@ -15,7 +15,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
         </li>
         <li>
           <a
-            href="#portfolio"
+            href='#portfolio'
             onClick={() => handlePageChange('Portfolio')}
             className={currentPage === 'Portfolio' ? 'active' : ''}
           >
@@ -24,7 +24,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
         </li>
         <li>
           <a
-            href="#resume"
+            href='#resume'
             onClick={() => handlePageChange('Resume')}
             className={currentPage === 'Resume' ? 'active' : ''}
           >
@@ -33,7 +33,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
         </li>
         <li>
           <a
-            href="#contact"
+            href='#contact'
             onClick={() => handlePageChange('ContactForm')}
             className={currentPage === 'ContactForm' ? 'active' : ''}
           >
