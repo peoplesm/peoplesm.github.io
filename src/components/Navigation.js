@@ -4,7 +4,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
   return (
     <nav className='nav-cont'>
       <ul>
-        <li>
+        <li className='slide'>
           <a
             href='#about'
             onClick={() => handlePageChange('Home')}
@@ -13,7 +13,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
             About Me
           </a>
         </li>
-        <li>
+        <li className='slide'>
           <a
             href='#portfolio'
             onClick={() => handlePageChange('Portfolio')}
@@ -22,7 +22,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
             Portfolio
           </a>
         </li>
-        <li>
+        <li className='slide'>
           <a
             href='#resume'
             onClick={() => handlePageChange('Resume')}
@@ -31,7 +31,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
             Resume
           </a>
         </li>
-        <li>
+        <li className='slide'>
           <a
             href='#contact'
             onClick={() => handlePageChange('ContactForm')}

@@ -27,37 +27,9 @@ body {
   padding-bottom: 25px;
 }
 
-/* h1 {
-  text-align: center;
-  color: aliceblue;
-  z-index: 5;
-  /* color: #fca311; */
-
-/* margin-bottom: 0; */
-/* } */
-
 .page-cont {
-  min-height: calc(100vh - 166px);
+  min-height: calc(100vh - 191px);
 }
-
-/* .header-bg {
-  position: relative;
-  background-color: #000000;
-  background-image: url('/public/assets/images/abstract-curve.png');
-  background-position-y: 35%;
-  background-position-x: 0%;
-  background-repeat: no-repeat;
-}
-
-.header-bg::before {
-  content: '';
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-color: rgba(0, 0, 0, 0.65);
-} */
 
 .header-bg {
   position: relative;
@@ -109,12 +81,16 @@ h2 {
   margin-bottom: 0;
 }
 
+.footer-ul {
+  width: 60% !important;
+}
+
 li {
   list-style: none;
 }
 
 /* Cool Link Effect */
-a {
+.slide {
   font-size: 150%;
   background-image: linear-gradient(
     to right,
@@ -132,7 +108,7 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-a:before {
+.slide:before {
   content: '';
   background: #11fc21;
   display: block;
@@ -144,12 +120,25 @@ a:before {
   transition: all 0.3s ease-in-out;
 }
 
-a:hover {
+.slide:hover {
   background-position: 0;
 }
 
-a:hover::before {
+.slide:hover::before {
   width: 100%;
+}
+
+.res-size {
+  font-size: 100% !important;
+}
+
+.icon {
+  color: aliceblue;
+  transition: 1s;
+}
+
+.icon:hover {
+  color: #11fc21;
 }
 
 .about {
@@ -170,6 +159,11 @@ a:hover::before {
 
 .skill-list {
   justify-content: center;
+}
+
+.skills {
+  font-size: 145%;
+  list-style-type: circle;
 }
 
 .pic {
