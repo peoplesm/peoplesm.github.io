@@ -1,6 +1,6 @@
 /* Animated BG */
 body {
-  background-color: #403060;
+  /* background-color: #403060;
   background-image: radial-gradient(
     circle,
     rgba(0, 0, 0, 0) 0%,
@@ -9,12 +9,22 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
+  background-image: url('/public/assets/images/prism.png');
+  background-repeat: repeat;
+
   color: aliceblue;
   /* color: #fca311; */
   min-height: 100vh;
   border: none;
   font-family: 'Ubuntu', sans-serif;
+}
+
+.box {
+  border: black solid 2px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+  padding-bottom: 25px;
 }
 
 .page-cont {
@@ -31,7 +41,9 @@ footer {
 
 h1 {
   text-align: center;
-  color: #fca311;
+  color: #abaaa8;
+  /* color: #fca311; */
+
   margin-bottom: 0;
 }
 
@@ -54,9 +66,9 @@ a {
   font-size: 150%;
   background-image: linear-gradient(
     to right,
-    #fca311,
-    #fca311 50%,
-    aliceblue 50%
+    #11fc21,
+    #11fc21 50%,
+    #abaaa8 50%
   );
   background-size: 200% 100%;
   background-position: -100%;
@@ -70,7 +82,7 @@ a {
 
 a:before {
   content: '';
-  background: #fca311;
+  background: #11fc21;
   display: block;
   position: absolute;
   bottom: -3px;
