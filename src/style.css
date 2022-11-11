@@ -25,6 +25,55 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   padding-bottom: 25px;
+  margin-bottom: 15px;
+}
+
+.card {
+  width: 25rem;
+  background-color: rgb(38, 41, 43);
+  padding-top: 15px;
+  margin: 5px;
+  border: #000000 solid 2px;
+}
+
+.card-text,
+.card-title {
+  color: aliceblue;
+}
+
+.card-img {
+  background: black;
+  border-top: #000000 solid 2px;
+  border-left: #000000 solid 2px;
+  border-right: #000000 solid 2px;
+  /* border-radius: 8px; */
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card-img img {
+  height: 225px;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+.card-img img:hover {
+  opacity: 0.65;
+}
+
+.card-body {
+  border-top: #000000 solid 2px;
+}
+
+.project-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-row {
+  justify-content: center;
 }
 
 .page-cont {
