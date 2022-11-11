@@ -20,7 +20,7 @@ export default function Home() {
       <div className='row about-img'>
         <div className='col-lg-5 center'>
           <img
-            src='./assets/images/res-pic.jpg'
+            src='./assets/images/resume-pic.jpg'
             alt='me with darwin'
             className='pic'
           />
