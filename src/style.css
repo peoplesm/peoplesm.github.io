@@ -22,7 +22,7 @@ body {
 
 .box {
   border: black solid 2px;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   padding-bottom: 25px;
 }
