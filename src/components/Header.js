@@ -4,11 +4,13 @@ import Navigation from './Navigation';
 export default function Header({ currentPage, handlePageChange }) {
   return (
     <header>
-      <h1>Matt Peoples</h1>
-      <Navigation
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
+      <div className='header-bg'>
+        <h1>Matt Peoples</h1>
+        <Navigation
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        />
+      </div>
     </header>
   );
 }
