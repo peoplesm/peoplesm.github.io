@@ -1,14 +1,15 @@
+import { FileEarmarkPerson } from 'react-bootstrap-icons';
 export default function Resume() {
   return (
     <>
       <h2>
-        Download My {}
+        Download My Resume {}
         <a
           href='./assets/peoples-resume.pdf'
           download='Peoples-Resume.pdf'
-          className='slide res-size'
+          className='res-size'
         >
-          Resume
+          <FileEarmarkPerson className='icon' size={50} />
         </a>
       </h2>
 

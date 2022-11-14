@@ -4,11 +4,14 @@ import { validateEmail, toTitleCase } from '../utils/helpers';
 function ContactForm() {
   const defaultErrorMessage =
     'Validation Works, does not send message yet due to no backend';
+
+  //declare and set states
   const [fullName, setFullName] = useState('');
   const [emailAddress, setEmailAddress] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState(defaultErrorMessage);
 
+  //Form input change handler
   const handleInputChange = (e) => {
     const { target } = e;
     const inputType = target.name;
@@ -27,6 +30,7 @@ function ContactForm() {
     }
   };
 
+  //If you leave a field while still blank or invalid do this
   const handleLostFocus = (event) => {
     const { target } = event;
     const inputName = target.name;

@@ -7,6 +7,7 @@ export default function Project(props) {
   const description = props.description;
   const github = props.github;
 
+  //Project Card filled with data from the project data file
   return (
     <div className='card'>
       <div className='card-img'>

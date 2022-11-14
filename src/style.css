@@ -1,20 +1,8 @@
-/* Animated BG */
+/* General Styles */
 body {
-  /* background-color: #403060;
-  background-image: radial-gradient(
-    circle,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.8) 100%
-  );
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover; */
   background-image: url('/public/assets/images/prism.png');
   background-repeat: repeat;
-
   color: aliceblue;
-  /* color: #fca311; */
   min-height: 100vh;
   border: none;
   font-family: 'Ubuntu', sans-serif;
@@ -26,54 +14,6 @@ body {
   border-radius: 15px;
   padding-bottom: 25px;
   margin-bottom: 15px;
-}
-
-.card {
-  width: 25rem;
-  background-color: rgb(38, 41, 43);
-  padding-top: 15px;
-  margin: 5px;
-  border: #000000 solid 2px;
-}
-
-.card-text,
-.card-title {
-  color: aliceblue;
-}
-
-.card-img {
-  background: black;
-  border-top: #000000 solid 2px;
-  border-left: #000000 solid 2px;
-  border-right: #000000 solid 2px;
-  /* border-radius: 8px; */
-  border-radius: 8px 8px 0px 0px;
-}
-
-.card-img img {
-  height: 225px;
-  opacity: 1;
-  transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  -webkit-transition: opacity 0.5s ease-in-out;
-}
-
-.card-img img:hover {
-  opacity: 0.65;
-}
-
-.card-body {
-  border-top: #000000 solid 2px;
-}
-
-.project-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.project-row {
-  justify-content: center;
 }
 
 .page-cont {
@@ -117,10 +57,64 @@ footer {
   background-color: #000000;
 }
 
+.footer-ul {
+  width: 60% !important;
+}
+
 h2 {
   text-align: center;
 }
 
+/* Card Styles */
+.card {
+  width: 25rem;
+  background-color: rgb(38, 41, 43);
+  padding-top: 15px;
+  margin: 5px;
+  border: #000000 solid 2px;
+}
+
+.card-text,
+.card-title {
+  color: aliceblue;
+}
+
+.card-img {
+  background: black;
+  border-top: #000000 solid 2px;
+  border-left: #000000 solid 2px;
+  border-right: #000000 solid 2px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card-img img {
+  height: 225px;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+.card-img img:hover {
+  opacity: 0.65;
+}
+
+.card-body {
+  border-top: #000000 solid 2px;
+}
+
+/* Project Styles */
+.project-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-row {
+  justify-content: center;
+}
+
+/* Nav Styles */
 .nav-cont {
   display: flex;
   justify-content: center;
@@ -132,10 +126,6 @@ h2 {
   justify-content: space-around;
   padding-left: 0;
   margin-bottom: 0;
-}
-
-.footer-ul {
-  width: 60% !important;
 }
 
 li {
@@ -205,6 +195,7 @@ li {
   background-color: #11fc21;
 }
 
+/* About page Styles */
 .about {
   justify-content: center;
   font-size: 125%;
@@ -221,6 +212,14 @@ li {
   justify-content: center;
 }
 
+.pic {
+  height: 300px;
+  border-radius: 15px;
+  border: black solid 2px;
+  box-shadow: 10px 10px 5px black;
+}
+
+/* Resume Page */
 .skill-list {
   justify-content: center;
 }
@@ -230,13 +229,7 @@ li {
   list-style-type: circle;
 }
 
-.pic {
-  height: 300px;
-  border-radius: 15px;
-  border: black solid 2px;
-  box-shadow: 10px 10px 5px black;
-}
-
+/* Form Style */
 .form-inputs {
   display: flex;
   flex-direction: column;
