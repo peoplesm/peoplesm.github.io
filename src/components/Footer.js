@@ -1,6 +1,5 @@
 import React from 'react';
-import { Github } from 'react-bootstrap-icons';
-import { Linkedin } from 'react-bootstrap-icons';
+import { Github, StackOverflow, Linkedin } from 'react-bootstrap-icons';
 
 function Footer() {
   return (
@@ -23,6 +22,15 @@ function Footer() {
               rel='noreferrer noopener'
             >
               <Linkedin className='icon' size={50} />
+            </a>
+          </li>
+          <li>
+            <a
+              href='https://stackoverflow.com/users/19087710/matt?tab=profile'
+              target='_blank'
+              rel='noreferrer noopener'
+            >
+              <StackOverflow className='icon' size={50} />
             </a>
           </li>
         </ul>
