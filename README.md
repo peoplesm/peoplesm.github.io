@@ -1,4 +1,4 @@
-# My React Portfolio[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# My React Portfolio [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 My updated portfolio built with react.
 
