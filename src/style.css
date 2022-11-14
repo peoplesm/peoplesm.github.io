@@ -194,6 +194,17 @@ li {
   color: #11fc21;
 }
 
+.sub-btn {
+  color: #000000;
+  background-color: aliceblue;
+  border-radius: 0px 0px 15px 15px;
+  transition: 1s;
+}
+
+.sub-btn:hover {
+  background-color: #11fc21;
+}
+
 .about {
   justify-content: center;
   font-size: 125%;
@@ -224,4 +235,9 @@ li {
   border-radius: 15px;
   border: black solid 2px;
   box-shadow: 10px 10px 5px black;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
 }
