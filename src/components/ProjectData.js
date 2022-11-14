@@ -40,7 +40,7 @@ export const projects = [
     github: 'https://github.com/peoplesm/pwa-text-editor',
   },
   {
-    title: 'Weather Dashboard',
+    title: 'Note Taker',
     url: 'https://evening-escarpment-24555.herokuapp.com/',
     image: './assets/images/note-taker-ss.png',
     description:
