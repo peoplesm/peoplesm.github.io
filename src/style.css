@@ -234,3 +234,13 @@ li {
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 600px) {
+  .nav-cont ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-cont ul li {
+    padding: 5px;
+  }
+}

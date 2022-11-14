@@ -14,7 +14,7 @@ export default function Resume() {
       </h2>
 
       <div className='row skill-list'>
-        <div className='col-md-12 col-lg-5'>
+        <div className='col-md-5'>
           <h3>Front-end Proficiencies</h3>
           <ul>
             <li className='skills'>HTML</li>
@@ -26,7 +26,7 @@ export default function Resume() {
             <li className='skills'>Bootstrap</li>
           </ul>
         </div>
-        <div className='col-md-12 col-lg-5'>
+        <div className='col-md-5'>
           <h3>Back-end Proficiencies</h3>
           <ul>
             <li className='skills'>APIs</li>
