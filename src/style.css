@@ -171,6 +171,24 @@ li {
   width: 100%;
 }
 
+.active:before {
+  content: '';
+  background: #11fc21;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+.active {
+  background-position: 0;
+}
+.active::before {
+  width: 100%;
+}
+
 .res-size {
   font-size: 100% !important;
 }
