@@ -4,7 +4,7 @@ import { Github, StackOverflow, Linkedin } from 'react-bootstrap-icons';
 function Footer() {
   return (
     <footer className='footer'>
-      <div className='nav-cont pb-3 pt-2'>
+      <div className='footer-cont pb-3 pt-2'>
         <ul className='footer-ul'>
           <li>
             <a

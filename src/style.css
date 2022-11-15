@@ -57,6 +57,19 @@ footer {
   background-color: #000000;
 }
 
+.footer-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-cont ul {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
 .footer-ul {
   width: 60% !important;
 }
