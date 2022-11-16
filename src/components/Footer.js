@@ -11,6 +11,7 @@ function Footer() {
               href='https://github.com/peoplesm'
               target='_blank'
               rel='noreferrer noopener'
+              title='GitHub'
             >
               <Github className='icon' size={50} />
             </a>
@@ -20,6 +21,7 @@ function Footer() {
               href='https://www.linkedin.com/in/peoplesm/'
               target='_blank'
               rel='noreferrer noopener'
+              title='LinkedIn'
             >
               <Linkedin className='icon' size={50} />
             </a>
@@ -29,6 +31,7 @@ function Footer() {
               href='https://stackoverflow.com/users/19087710/matt?tab=profile'
               target='_blank'
               rel='noreferrer noopener'
+              title='Stack Overflow'
             >
               <StackOverflow className='icon' size={50} />
             </a>

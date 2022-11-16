@@ -106,7 +106,12 @@ function ContactForm() {
               onBlur={handleLostFocus}
             />
 
-            <input type='submit' text='Submit' className='sub-btn' />
+            <input
+              type='submit'
+              text='Submit'
+              className='sub-btn'
+              title='Submit'
+            />
           </div>
         </div>
       </form>

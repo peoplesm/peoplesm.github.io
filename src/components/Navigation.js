@@ -9,6 +9,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
             href='#about'
             onClick={() => handlePageChange('Home')}
             className={currentPage === 'Home' ? 'active' : ''}
+            title='About'
           >
             About Me
           </a>
@@ -18,6 +19,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
             href='#portfolio'
             onClick={() => handlePageChange('Portfolio')}
             className={currentPage === 'Portfolio' ? 'active' : ''}
+            title='Portfolio'
           >
             Portfolio
           </a>
@@ -27,6 +29,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
             href='#resume'
             onClick={() => handlePageChange('Resume')}
             className={currentPage === 'Resume' ? 'active' : ''}
+            title='Resume'
           >
             Resume
           </a>
@@ -36,6 +39,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
             href='#contact'
             onClick={() => handlePageChange('ContactForm')}
             className={currentPage === 'ContactForm' ? 'active' : ''}
+            title='Contact Me'
           >
             Contact
           </a>

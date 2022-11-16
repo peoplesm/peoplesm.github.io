@@ -8,6 +8,7 @@ export default function Resume() {
           href='./assets/peoples-resume.pdf'
           download='Peoples-Resume.pdf'
           className='res-size'
+          title='Resume'
         >
           <FileEarmarkPerson className='icon' size={50} />
         </a>
