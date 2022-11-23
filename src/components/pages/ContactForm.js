@@ -58,16 +58,17 @@ function ContactForm() {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    if (fullName && emailAddress && message) {
+    if (fullName && validateEmail(emailAddress) && message) {
       //Logic to send the message to me will go here, but we have no backend so I will leave it like this for now
       alert('Message Sent!');
       setErrorMessage(defaultErrorMessage);
+      //Clears form inputs
+      setFullName('');
+      setEmailAddress('');
+      setMessage('');
+    } else {
+      alert('Fill all fields please');
     }
-
-    //Clears form inputs
-    setFullName('');
-    setEmailAddress('');
-    setMessage('');
   };
 
   return (
