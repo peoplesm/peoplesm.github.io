@@ -75,6 +75,13 @@ function ContactForm() {
       <form onSubmit={handleFormSubmit}>
         <div className='form-group'>
           <h2>Contact Me!</h2>
+          <ul style={{ display: 'flex', justifyContent: 'space-around' }}>
+            <li className='slide'>
+              Email:{' '}
+              <a href='mailto:mep.summit@gmail.com'>mep.summit@gmail.com</a>
+            </li>
+            <li className='slide'>Phone: (970) 390-0853</li>
+          </ul>
           <div className='form-inputs'>
             <label htmlFor='name'>Name</label>
             <input
