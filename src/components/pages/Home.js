@@ -13,8 +13,10 @@ export default function Home() {
           taught me discipline, how to make decisions in high stress
           environments and managing people. I will have completed the full-stack
           programming bootcamp at the University of Denver in early December
-          2022. With this new knowledge and skill set, I am excited to start a
-          new chapter in computer programming.
+          2022, where I have developed proficiencies in HTML/CSS, JavaScript,
+          GraphQL, MongoDB, Express.js and many other programming technologies.
+          With this new knowledge and skill set, I am excited to start a new
+          chapter in computer programming.
         </div>
       </div>
       <div className='row about-img'>
