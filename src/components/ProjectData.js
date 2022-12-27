@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Smokey's Helper",
+    url: 'https://smokeys-helpers.herokuapp.com/',
+    image: './assets/images/smokey-ss.png',
+    description:
+      'An App to allow wildland firefighters to carry all the physical documents they would typically have in their "man purse" digitally. Allowing them to track their time with a calendar, track their latitude/longitude/altitude and pull pertinent fire weather based on their physical location.',
+    github: 'https://github.com/moyuh/fire-fighter-tracking',
+  },
+  {
     title: 'Mythic+ Team Maker',
     url: 'https://mythic-plus-team.herokuapp.com/',
     image: './assets/images/mplus-ss.png',
